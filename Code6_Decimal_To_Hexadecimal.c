@@ -2,8 +2,8 @@
 #include<conio.h>
 int main() {
 	int number,remainder[2]={0,0},i=0;
-	printf("This program converts a Decimal number(8 bits maximum) into its equivalent hexadecimal number\n\nINSTRUCTIONS: If AE is the number then enter A as first chracter and then enter E as second character. Characters are not case sensitive\n");
-	printf("\nEnter a number:");
+	printf("This program converts a Decimal number(8 bits maximum) into its equivalent hexadecimal number\n\n");
+	printf("Enter a number:");
 	scanf("%d",&number);
 	while(i<=1){
 		remainder[i]=number%16;
